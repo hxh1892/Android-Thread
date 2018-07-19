@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:hint="Time"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="handler"
+        android:text="Handler"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="hs"
+        android:text="Handler Stop"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="tr"
+        android:text="Thread Runnable"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="trs"
+        android:text="Thread Runnable Stop"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="timer"
+        android:text="Timer"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="tis"
+        android:text="Timer Stop"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
